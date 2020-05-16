@@ -1,0 +1,20 @@
+{
+  "hosting": {
+    "redirects": [{
+      "source": "/",
+      "destination": "/homepages",
+      "type": 302
+      }],
+    "public": "public",
+    "cleanUrls": true,
+    "ignore": [
+      "firebase.json",
+      "**/node_modules/**"
+    ]
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
+

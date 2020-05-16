@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Find a Food Provider</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <style>
+      #mapNav .navbar-brand {
+        font-family: 'Alata', sans-serif;
+        font-size: 28px;
+        text-transform: uppercase;
+        color: #3c78d8;
+      }
+
+      #mapNav .nav-link {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #3c78d8;
+      }
+      
+      #map {
+        border: 0px solid #333;
+        width: 100vw;
+        height: 100vh;
+        position:relative;
+        bottom: 0%;
+      }
+      
+      html {
+        overflow:hidden;
+      }
+
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Alata|Alatsi|Didact+Gothic|Fjalla+One|Hammersmith+One|Montserrat|Montserrat+Alternates|Montserrat+Subrayada|Poppins|Quicksand|Six+Caps&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrapEdited.css">
+      
+  </head>
+  <body>  
+    <nav id="mapNav" class="navbar navbar-expand-sm navbar-light navbar-custom" ">
+      <a class="navbar-brand" id="mapHead" href="homepages.html"> <img src="public/Homepage Logo.png" width="61.6875px" height="35.5625px" class="d-inline-block align-top" alt=""> Nourish</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarNav">
+  
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="signInPg.html" style="color: #3c78d8; font-size: 20px;" >Login<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="Supplier form.html" style="color: #3c78d8; font-size: 20px;">Register</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="map"></div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"> </script>
+    <script src="bootstrap.js"></script>
+    <script src = "./maps.js"></script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKS-wQ4iSfpxdDuvvov2GxmPhiyu0Y2vQ&callback=initMap"
+  type="text/javascript"></script>
+    async defer></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.7.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.7.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+  </body>
+</html>
