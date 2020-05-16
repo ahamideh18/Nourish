@@ -51,7 +51,7 @@ function getAddress(position){
     let x = position.coords.latitude;
     let y = position.coords.longitude;
     
-    let url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng={x},{y}&key={AIzaSyAS29wJYaYpG4LQ_lPNrmTj8oMr8PEnuyw}';
+    let url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng={x},{y}&key={APIKEY}';
     
     fetch(url);
     response => response.json() 
