@@ -1,5 +1,5 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyBfsB2GdQYXOhE1WzObP8Wr7N9Ha3q41qo",
+    apiKey: "API_KEY_HERE",
     authDomain: "nourish-b38bd.firebaseapp.com",
     databaseURL: "https://nourish-b38bd.firebaseio.com",
     projectId: "nourish-b38bd",
